@@ -1,0 +1,27 @@
+{
+  "name": "amcravila-creditcard",
+  "version": "1.0.0",
+  "description": "Biblioteca para validação de dados de cartão de crédito",
+  "main": "index.js",
+  "scripts": {
+    "test": "cardValidator()"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\u0016https://github.com/amcravila/amcravila-creditcard.git"
+  },
+  "keywords": [
+    "cardvalidator",
+    "creditcard"
+  ],
+  "author": "Amanda Avila",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^5.5.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.0",
+    "eslint-plugin-standard": "^4.0.0"
+  }
+}
