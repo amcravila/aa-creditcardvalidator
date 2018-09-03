@@ -12,7 +12,7 @@ Exemplo de uso:
 
 ```
 $node
-> let cardNumber = require("aa-creditcardvalidator")
+> let cardValidator = require("aa-creditcardvalidator")
 > cardValidator(cardNumber); //'true' OU 'false'
 ```
 

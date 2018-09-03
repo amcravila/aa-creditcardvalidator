@@ -1,15 +1,15 @@
-var mocha = require('mocha');
-var chai = require('chai');
-var index = require('./index');
-var expect = chai.expect;
+const mocha = require('mocha');
+const assert = require('chai').assert;
+const index = require('../index');
 
-describe('index', function() {
-  describe('#cardValidator', function() {
-    describe('when number is null', function() {
-      it('should return string 0', function() {
-        expect(formatter.valueToAPIFormat('')
-        ).to.be.equal('0');
-      });
-    });
+describe('#cardValidator', () => {
+  it('num deve ser uma string', () => {
+    const num = '1234';
+    assert.typeOf(num, 'string', 'num is a string');
+  });
+
+  it('num não pode ser nulo', () => {
+    const num = '';
+    assert.isUndefined(num, 'Digite um número para validação');
   });
 });
