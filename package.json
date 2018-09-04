@@ -4,7 +4,10 @@
   "description": "Biblioteca para validação de dados de cartão de crédito",
   "main": "index.js",
   "scripts": {
-    "test": "cardValidator()"
+    "lint": "./node_modules/.bin/eslint src/*.js",
+    "prepush": "npm run lint",
+    "test": "./node_modules/.bin/mocha test/**/*.spec.js",
+    "test:tdd": "./node_modules/.bin/mocha test/**/*.spec.js --watch"
   },
   "repository": {
     "type": "git",
@@ -17,6 +20,7 @@
   "author": "Amanda Avila",
   "license": "ISC",
   "devDependencies": {
+    "chai": "^3.5.0",
     "eslint": "^5.5.0",
     "eslint-config-standard": "^12.0.0",
     "eslint-plugin-import": "^2.14.0",
