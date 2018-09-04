@@ -3,12 +3,6 @@ var assert = require('assert');
 const cardValidator = require('../lib/index');
 
 describe('cardValidator()', function() {
-  var num;
-
-  beforeEach(() => {
-    num = 36490102462661;
-  });
-
   describe('when there is no parameter', () => {
     it('should throw an error', () => {
       assert.equal(cardValidator(''), 'Parâmetro Inválido. Digite um número para validação.');
