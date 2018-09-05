@@ -1,6 +1,6 @@
 {
   "name": "aa-creditcardvalidator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Biblioteca para validação de dados de cartão de crédito",
   "main": "index.js",
   "scripts": {
