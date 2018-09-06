@@ -1,4 +1,4 @@
-# Validador de dados de cartão de crédito v.1.0.3
+# Validador de dados de cartão de crédito v.1.0.4
 
 **Esta biblioteca se destina a validação de dados de cartão de crédito, para uso em aplicações web.**
 Na versão atual, efetua a validação de número de cartão de crédito, retornando **TRUE** para Número de cartão VÁLIDO OU **FALSE** para Número de cartão INVÁLIDO.
@@ -17,7 +17,7 @@ $node
 ```
 
 
-## versão 1.0.3
+## versão 1.0.4
 
 - funcionalidades: validação de número de cartão de crédito
 
@@ -36,5 +36,5 @@ $node
 #### versão 2.0.0 (previsão dezembro/2018)
 - README em inglês
 
-#### versão 1.0.3 (released)
+#### versão 1.0.4 (released)
 - funcionalidades: validação de número de cartão de crédito
