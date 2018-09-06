@@ -25,7 +25,7 @@ $node
 ## instalação
 
 - você deverá ter o node + npm instalados. Para guia de instalação, visite [o site oficial](https://www.npmjs.com/get-npm).
-- proceda com a instalação com `$npm install aa-creditcardvalidator`
+- proceda com a instalação com `$npm i aa-creditcardvalidator` OU `$npm install aa-creditcardvalidator --save`
 
 
 ## roadmap oficial do projeto
