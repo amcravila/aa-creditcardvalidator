@@ -1,7 +1,7 @@
 const mocha = require('mocha');
 const chai = require('chai');
 const assert = chai.assert;
-const cardValidator = require('../lib/index');
+const cardValidator = require('../index');
 
 describe('cardValidator()', function() {
   context('when there is no parameter', () => {
